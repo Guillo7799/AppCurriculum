@@ -1,35 +1,27 @@
 #root {
-  height: 160%;
+  height: 175%;
   width: 100%;
   background-color: #def7ff;
   font-family: "Courier New", Courier, monospace;
 }
 
 #main {
-  padding-top: 10px;
+  width: 100%;
+  height: 175%;
+  background-color: #def7ff;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#main h1 {
   text-align: center;
+  padding-top: 15px;
 }
 
 #main p {
+  font-size: 16px;
   color: black;
-}
-
-#main li {
-  color: black;
-}
-
-#main img {
-  width: 150px;
-  height: 200px;
-}
-
-#description {
-  color: black;
-  text-align: left;
-  padding-left: 5%;
-  width: 100%;
-  font-family: "Courier New", Courier, monospace;
-  height: 100%;
+  padding: 15px;
 }
 
 #title {
@@ -37,7 +29,7 @@
   font-size: 20;
   text-align: center;
   color: black;
-  height: 8%;
+  height: 10%;
   width: 100%;
   display: flex;
   background-image: radial-gradient(
@@ -69,22 +61,4 @@
     #00d2ff 100%
   );
   justify-content: center;
-}
-
-#buttons {
-  margin-left: 0;
-  margin: 0;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
 }
